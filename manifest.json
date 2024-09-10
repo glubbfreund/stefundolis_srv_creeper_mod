@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "StefUNDOlis Server Creeper Mod 1.1.0",
+        "description": "Auch Creeper brennen bei Tageslicht, keine Blockzerstörung bei Explosionen",
+        "uuid": "2ab6f7b9-ebce-4719-985c-2e89bd4ed5ac",
+        "version": [1, 1, 0],
+        "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+        {
+            "description": "Auch Creeper brennen bei Tageslicht, keine Blockzerstörung bei Explosionen",
+            "type": "data",
+            "uuid": "e3c3b9c1-9198-433a-826a-053c1070da30",
+            "version": [1, 1, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.5.0"
+        }
+    ]
+}
