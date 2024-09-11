@@ -51,6 +51,7 @@
         "minecraft:target_nearby_sensor": {
         },
         "minecraft:explode": {
+          "breaks_blocks": false, // no block damage on explosions
           "fuse_length": 1.5,
           "fuse_lit": true,
           "power": 6,
